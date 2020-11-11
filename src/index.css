@@ -1,13 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.95);
+  background-color: #323232 !important;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.primary {
+  color: #65c3d9;
+}
+
+.emply-card-title {
+  margin: 1px 0;
+  color: rgba(0, 0, 0, 0.9);
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+.emply-card-title span {
+  color: #65c3d9;
+}
+
+.emply-card-date {
+  margin-top: 1px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+}
+
+.title {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.user-detail {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.user-detail * {
+  margin: 0;
+}
+
+.profile {
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+.levels {
+  display: flex;
+  overflow: hidden;
+  width: fit-content;
+  border-radius: 2px;
+}
+
+.level:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
+}
+.level {
+  width: 20px;
+  height: 14px;
+  background-color: #e1ecef;
+  margin-right: 2px;
+}
+
+.level.selected {
+  background-color: #65c3d9;
+  border-radius: 2px;
+}
+
+.selected:not(:last-child) {
+  border-right: unset;
+}
+
+.al-center {
+  align-items: center;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.sc-icon {
+  color: rgba(0, 0, 0, 0.7);
+  margin: 6px;
+  vertical-align: middle;
 }
