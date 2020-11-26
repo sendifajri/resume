@@ -1,22 +1,8 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faJs,
-  faNodeJs,
-  faReact,
-  faVuejs,
-} from "@fortawesome/free-brands-svg-icons";
+
 
 export const Content = {
   educations: [
-    {
-      company: "SMA Yadika 5",
-      title: "Sciences",
-      date: {
-        start: "Jul, 2010",
-        end: "Jul, 2013",
-      },
-    },
     {
       company: "Universitas Gunadarma",
       title: "Software Engineer",
@@ -25,26 +11,41 @@ export const Content = {
         end: "Dec, 2017",
       },
     },
+    {
+      company: "SMA Yadika 5",
+      title: "Sciences",
+      date: {
+        start: "Jul, 2010",
+        end: "Jul, 2013",
+      },
+    },
   ],
   employments: [
     {
-      company: "PT Optify",
-      title: "Front End Developer",
+      company: "Adroady",
+      title: "Front End Technical Lead",
       date: {
-        start: "Dec 2017",
-        end: "Jan 2019",
+        start: "Sep 2019",
+        end: "Present",
       },
       description: (
         <ul>
+          <li>Building stable and maintainable codebases using React</li>
           <li>
-            Delivered responsive, cross-browser compatible and accessibility
-            compliant websites
+            Contribute to the design, estimation, planning and implementation of
+            IT system related business solutions
           </li>
           <li>
-            Produced visual elements of web applications by translating UI/UX
-            design wireframes into code while producing high quality, reusable
-            markup using HTML5 and CSS3
+            Collaborating with designers to ensure design were efficient and
+            technically sound
           </li>
+          <li>
+            Assisting in defining software architectures - Collaborating with
+            leads to explore existing systems, determining areas of complexity,
+            potential risks to successful implementation, learning the
+            applications capabilities
+          </li>
+          <li>Support team DevOps to build base CI/CD piplines</li>
         </ul>
       ),
     },
@@ -75,30 +76,23 @@ export const Content = {
       ),
     },
     {
-      company: "Adroady",
-      title: "Front End Technical Lead",
+      company: "PT Optify",
+      title: "Front End Developer",
       date: {
-        start: "Sep 2019",
-        end: "Present",
+        start: "Dec 2017",
+        end: "Jan 2019",
       },
       description: (
         <ul>
-          <li>Building stable and maintainable codebases using React</li>
           <li>
-            Contribute to the design, estimation, planning and implementation of
-            IT system related business solutions
+            Delivered responsive, cross-browser compatible and accessibility
+            compliant websites
           </li>
           <li>
-            Collaborating with designers to ensure design were efficient and
-            technically sound
+            Produced visual elements of web applications by translating UI/UX
+            design wireframes into code while producing high quality, reusable
+            markup using HTML5 and CSS3
           </li>
-          <li>
-            Assisting in defining software architectures - Collaborating with
-            leads to explore existing systems, determining areas of complexity,
-            potential risks to successful implementation, learning the
-            applications capabilities
-          </li>
-          <li>Support team DevOps to build base CI/CD piplines</li>
         </ul>
       ),
     },
